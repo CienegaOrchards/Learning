@@ -10,6 +10,7 @@ import itertools
 from itertools import chain
 
 import pandas as pd
+import dask.dataframe as dd
 import PIL
 from PIL import Image
 from numpy.random import random, permutation, randn, normal, uniform, choice
