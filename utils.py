@@ -21,7 +21,7 @@ from scipy.ndimage.interpolation import zoom
 from scipy.ndimage import imread
 from sklearn.metrics import confusion_matrix
 import bcolz
-from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
+from sklearn.preprocessing import OneHotEncoder, MinMaxScaler, StandardScaler
 from sklearn.manifold import TSNE
 
 from IPython.lib.display import FileLink
