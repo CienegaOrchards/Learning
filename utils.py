@@ -32,7 +32,7 @@ from keras.utils.data_utils import get_file
 from keras.utils import np_utils
 from keras.utils.np_utils import to_categorical
 from keras.models import Sequential, Model
-from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional
+from keras.layers import Input, Embedding, Reshape, merge, LSTM, Bidirectional, CuDNNLSTM
 from keras.layers import TimeDistributed, Activation, SimpleRNN, GRU
 from keras.layers.merge import Dot, Add, Multiply, Average, Maximum, Concatenate
 from keras.layers.core import Flatten, Dense, Dropout, Lambda, Reshape
